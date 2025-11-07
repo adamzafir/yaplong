@@ -3,7 +3,7 @@
 //  lyiglyuvgylu
 //
 //  Created by Ethan Soh on 7/11/25.
-//
+//adam is gay
 
 import SwiftUI
 
@@ -107,3 +107,4 @@ struct Screen4: View {
 #Preview {
     Screen4()
 }
+
