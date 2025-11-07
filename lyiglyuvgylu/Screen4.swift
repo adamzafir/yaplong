@@ -11,19 +11,10 @@ struct Screen4: View {
     @State private var WPM = 120
     @State private var LGBW = 7
     @State private var CIS = 20
-    @State private var score: Double = 65
+    @State private var score: Double = 67
     var body: some View {
         NavigationStack {
             VStack {
-                HStack {
-                    Text("Review")
-                        .bold()
-                        .font(.system(size: 35))
-                    
-                }
-               
-                Spacer()
-                
                 Form{
                     Section("Result"){
                         LabeledContent {
@@ -48,23 +39,18 @@ struct Screen4: View {
                             .padding(.horizontal)
                             .padding(.top, 8)
                     }
+                    NavigationLink {
+                        Screen5()
+                    } label: {
+                        Text("Playback")
+                            .bold()
+                            .font(.system(size: 20))
+                    }
+                    .buttonStyle(.glassProminent)
+                    .controlSize(.large)
                 }
-                Spacer()
-                
-
-                NavigationLink {
-                    Screen5()
-                } label: {
-                    Text("Playback")
-                        .bold()
-                        .font(.system(size: 20))
-                }
-                .foregroundStyle(.white)
-                .buttonStyle(.borderedProminent)
-                .controlSize(.large)
-                .buttonBorderShape(.roundedRectangle)
-                
             }
+            .navigationTitle("Review")
         }
     }
     
