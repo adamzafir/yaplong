@@ -31,6 +31,14 @@ struct Settings: View {
         get { ColourScheme(rawValue: storedFlavorRawValue) ?? .system }
         set { storedFlavorRawValue = newValue.rawValue }
     }
+    
+    
+    
+    
+    
+    
+    
+    
 
    
     private var colourSchemeBinding: Binding<ColourScheme> {

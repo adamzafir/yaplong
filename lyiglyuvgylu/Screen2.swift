@@ -8,14 +8,14 @@
 import SwiftUI
 
 struct Screen2: View {
-    @State private var title: String = "Unnamed Title"
+    @State private var title: String = "Untitled Script"
     @State private var script: String = "Type something..."
     
     var body: some View {
         TabView {
             NavigationStack {
                 VStack {
-                    TextField("Unnamed Title", text: $title)
+                    TextField("Untitled Script", text: $title)
                         .fontWeight(.bold)
                         .font(.title)
                         .padding()
