@@ -4,7 +4,6 @@
 //
 //  Created by Chan Yap Long on 5/11/25.
 //
-// written by xcode swift assist
 
 import SwiftUI
 import AVFoundation

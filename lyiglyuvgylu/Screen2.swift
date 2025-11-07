@@ -2,7 +2,7 @@
 //  Screen2.swift
 //  lyiglyuvgylu
 //
-//  this part was coded by adam
+//  this part was coded by adam, who is gay
 //
 
 import SwiftUI
