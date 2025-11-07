@@ -8,17 +8,15 @@
 import SwiftUI
 
 struct Screen1: View {
-  
+
     var body: some View {
         NavigationStack {
-            VStack {
-                NavigationLink {
-                    Screen2()
-                } label: {
-                    Text("Demo Script")
-                }
+            NavigationLink {
+                Screen2()
+            } label: {
+                Text("Demo Script")
             }
-            .navigationTitle("Scripts")
+
         }
     }
 }
