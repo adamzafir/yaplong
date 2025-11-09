@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		C91504A62EBB2E5D00CB1C3A /* lyiglyuvgylu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lyiglyuvgylu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		35C3FCFC2EBEDC60003CED9B /* INTRO TIME.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "INTRO TIME.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		C91504A82EBB2E5D00CB1C3A /* lyiglyuvgylu */ = {
+		35C3FCFE2EBEDC60003CED9B /* INTRO TIME */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = lyiglyuvgylu;
+			path = "INTRO TIME";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C91504A32EBB2E5D00CB1C3A /* Frameworks */ = {
+		35C3FCF92EBEDC60003CED9B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -29,18 +29,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C915049D2EBB2E5D00CB1C3A = {
+		35C3FCF32EBEDC60003CED9B = {
 			isa = PBXGroup;
 			children = (
-				C91504A82EBB2E5D00CB1C3A /* lyiglyuvgylu */,
-				C91504A72EBB2E5D00CB1C3A /* Products */,
+				35C3FCFE2EBEDC60003CED9B /* INTRO TIME */,
+				35C3FCFD2EBEDC60003CED9B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		C91504A72EBB2E5D00CB1C3A /* Products */ = {
+		35C3FCFD2EBEDC60003CED9B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C91504A62EBB2E5D00CB1C3A /* lyiglyuvgylu.app */,
+				35C3FCFC2EBEDC60003CED9B /* INTRO TIME.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,64 +48,64 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C91504A52EBB2E5D00CB1C3A /* lyiglyuvgylu */ = {
+		35C3FCFB2EBEDC60003CED9B /* INTRO TIME */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C91504B12EBB2E5E00CB1C3A /* Build configuration list for PBXNativeTarget "lyiglyuvgylu" */;
+			buildConfigurationList = 35C3FD072EBEDC61003CED9B /* Build configuration list for PBXNativeTarget "INTRO TIME" */;
 			buildPhases = (
-				C91504A22EBB2E5D00CB1C3A /* Sources */,
-				C91504A32EBB2E5D00CB1C3A /* Frameworks */,
-				C91504A42EBB2E5D00CB1C3A /* Resources */,
+				35C3FCF82EBEDC60003CED9B /* Sources */,
+				35C3FCF92EBEDC60003CED9B /* Frameworks */,
+				35C3FCFA2EBEDC60003CED9B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				C91504A82EBB2E5D00CB1C3A /* lyiglyuvgylu */,
+				35C3FCFE2EBEDC60003CED9B /* INTRO TIME */,
 			);
-			name = lyiglyuvgylu;
+			name = "INTRO TIME";
 			packageProductDependencies = (
 			);
-			productName = lyiglyuvgylu;
-			productReference = C91504A62EBB2E5D00CB1C3A /* lyiglyuvgylu.app */;
+			productName = "INTRO TIME";
+			productReference = 35C3FCFC2EBEDC60003CED9B /* INTRO TIME.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C915049E2EBB2E5D00CB1C3A /* Project object */ = {
+		35C3FCF42EBEDC60003CED9B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 2610;
 				LastUpgradeCheck = 2610;
 				TargetAttributes = {
-					C91504A52EBB2E5D00CB1C3A = {
+					35C3FCFB2EBEDC60003CED9B = {
 						CreatedOnToolsVersion = 26.1;
 					};
 				};
 			};
-			buildConfigurationList = C91504A12EBB2E5D00CB1C3A /* Build configuration list for PBXProject "lyiglyuvgylu" */;
+			buildConfigurationList = 35C3FCF72EBEDC60003CED9B /* Build configuration list for PBXProject "INTRO TIME" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = C915049D2EBB2E5D00CB1C3A;
+			mainGroup = 35C3FCF32EBEDC60003CED9B;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = C91504A72EBB2E5D00CB1C3A /* Products */;
+			productRefGroup = 35C3FCFD2EBEDC60003CED9B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C91504A52EBB2E5D00CB1C3A /* lyiglyuvgylu */,
+				35C3FCFB2EBEDC60003CED9B /* INTRO TIME */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C91504A42EBB2E5D00CB1C3A /* Resources */ = {
+		35C3FCFA2EBEDC60003CED9B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -115,7 +115,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C91504A22EBB2E5D00CB1C3A /* Sources */ = {
+		35C3FCF82EBEDC60003CED9B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -125,7 +125,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		C91504AF2EBB2E5E00CB1C3A /* Debug */ = {
+		35C3FD052EBEDC61003CED9B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -160,6 +160,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 6N7WZYWAFD;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -188,7 +189,7 @@
 			};
 			name = Debug;
 		};
-		C91504B02EBB2E5E00CB1C3A /* Release */ = {
+		35C3FD062EBEDC61003CED9B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -223,6 +224,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 6N7WZYWAFD;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -244,13 +246,14 @@
 			};
 			name = Release;
 		};
-		C91504B22EBB2E5E00CB1C3A /* Debug */ = {
+		35C3FD082EBEDC61003CED9B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6N7WZYWAFD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -263,7 +266,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "FHHCUAU-2AM.lyiglyuvgylu";
+				PRODUCT_BUNDLE_IDENTIFIER = "The-Ethan-Company.INTRO-TIME";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -275,13 +278,14 @@
 			};
 			name = Debug;
 		};
-		C91504B32EBB2E5E00CB1C3A /* Release */ = {
+		35C3FD092EBEDC61003CED9B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6N7WZYWAFD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -294,7 +298,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "FHHCUAU-2AM.lyiglyuvgylu";
+				PRODUCT_BUNDLE_IDENTIFIER = "The-Ethan-Company.INTRO-TIME";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -309,25 +313,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C91504A12EBB2E5D00CB1C3A /* Build configuration list for PBXProject "lyiglyuvgylu" */ = {
+		35C3FCF72EBEDC60003CED9B /* Build configuration list for PBXProject "INTRO TIME" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C91504AF2EBB2E5E00CB1C3A /* Debug */,
-				C91504B02EBB2E5E00CB1C3A /* Release */,
+				35C3FD052EBEDC61003CED9B /* Debug */,
+				35C3FD062EBEDC61003CED9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C91504B12EBB2E5E00CB1C3A /* Build configuration list for PBXNativeTarget "lyiglyuvgylu" */ = {
+		35C3FD072EBEDC61003CED9B /* Build configuration list for PBXNativeTarget "INTRO TIME" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C91504B22EBB2E5E00CB1C3A /* Debug */,
-				C91504B32EBB2E5E00CB1C3A /* Release */,
+				35C3FD082EBEDC61003CED9B /* Debug */,
+				35C3FD092EBEDC61003CED9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C915049E2EBB2E5D00CB1C3A /* Project object */;
+	rootObject = 35C3FCF42EBEDC60003CED9B /* Project object */;
 }

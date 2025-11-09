@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		C91504A62EBB2E5D00CB1C3A /* lyiglyuvgylu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lyiglyuvgylu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		35B67F892EBEDB5400DDD537 /* Def new intro to swift trust 100%.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Def new intro to swift trust 100%.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		C91504A82EBB2E5D00CB1C3A /* lyiglyuvgylu */ = {
+		35B67F8B2EBEDB5400DDD537 /* Def new intro to swift trust 100% */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = lyiglyuvgylu;
+			path = "Def new intro to swift trust 100%";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C91504A32EBB2E5D00CB1C3A /* Frameworks */ = {
+		35B67F862EBEDB5400DDD537 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -29,18 +29,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C915049D2EBB2E5D00CB1C3A = {
+		35B67F802EBEDB5400DDD537 = {
 			isa = PBXGroup;
 			children = (
-				C91504A82EBB2E5D00CB1C3A /* lyiglyuvgylu */,
-				C91504A72EBB2E5D00CB1C3A /* Products */,
+				35B67F8B2EBEDB5400DDD537 /* Def new intro to swift trust 100% */,
+				35B67F8A2EBEDB5400DDD537 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		C91504A72EBB2E5D00CB1C3A /* Products */ = {
+		35B67F8A2EBEDB5400DDD537 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C91504A62EBB2E5D00CB1C3A /* lyiglyuvgylu.app */,
+				35B67F892EBEDB5400DDD537 /* Def new intro to swift trust 100%.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,64 +48,64 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C91504A52EBB2E5D00CB1C3A /* lyiglyuvgylu */ = {
+		35B67F882EBEDB5400DDD537 /* Def new intro to swift trust 100% */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C91504B12EBB2E5E00CB1C3A /* Build configuration list for PBXNativeTarget "lyiglyuvgylu" */;
+			buildConfigurationList = 35B67F942EBEDB5500DDD537 /* Build configuration list for PBXNativeTarget "Def new intro to swift trust 100%" */;
 			buildPhases = (
-				C91504A22EBB2E5D00CB1C3A /* Sources */,
-				C91504A32EBB2E5D00CB1C3A /* Frameworks */,
-				C91504A42EBB2E5D00CB1C3A /* Resources */,
+				35B67F852EBEDB5400DDD537 /* Sources */,
+				35B67F862EBEDB5400DDD537 /* Frameworks */,
+				35B67F872EBEDB5400DDD537 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				C91504A82EBB2E5D00CB1C3A /* lyiglyuvgylu */,
+				35B67F8B2EBEDB5400DDD537 /* Def new intro to swift trust 100% */,
 			);
-			name = lyiglyuvgylu;
+			name = "Def new intro to swift trust 100%";
 			packageProductDependencies = (
 			);
-			productName = lyiglyuvgylu;
-			productReference = C91504A62EBB2E5D00CB1C3A /* lyiglyuvgylu.app */;
+			productName = "Def new intro to swift trust 100%";
+			productReference = 35B67F892EBEDB5400DDD537 /* Def new intro to swift trust 100%.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C915049E2EBB2E5D00CB1C3A /* Project object */ = {
+		35B67F812EBEDB5400DDD537 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 2610;
 				LastUpgradeCheck = 2610;
 				TargetAttributes = {
-					C91504A52EBB2E5D00CB1C3A = {
+					35B67F882EBEDB5400DDD537 = {
 						CreatedOnToolsVersion = 26.1;
 					};
 				};
 			};
-			buildConfigurationList = C91504A12EBB2E5D00CB1C3A /* Build configuration list for PBXProject "lyiglyuvgylu" */;
+			buildConfigurationList = 35B67F842EBEDB5400DDD537 /* Build configuration list for PBXProject "Def new intro to swift trust 100%" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = C915049D2EBB2E5D00CB1C3A;
+			mainGroup = 35B67F802EBEDB5400DDD537;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = C91504A72EBB2E5D00CB1C3A /* Products */;
+			productRefGroup = 35B67F8A2EBEDB5400DDD537 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C91504A52EBB2E5D00CB1C3A /* lyiglyuvgylu */,
+				35B67F882EBEDB5400DDD537 /* Def new intro to swift trust 100% */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C91504A42EBB2E5D00CB1C3A /* Resources */ = {
+		35B67F872EBEDB5400DDD537 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -115,7 +115,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C91504A22EBB2E5D00CB1C3A /* Sources */ = {
+		35B67F852EBEDB5400DDD537 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -125,7 +125,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		C91504AF2EBB2E5E00CB1C3A /* Debug */ = {
+		35B67F922EBEDB5500DDD537 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -160,6 +160,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 6N7WZYWAFD;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -188,7 +189,7 @@
 			};
 			name = Debug;
 		};
-		C91504B02EBB2E5E00CB1C3A /* Release */ = {
+		35B67F932EBEDB5500DDD537 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -223,6 +224,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 6N7WZYWAFD;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -244,13 +246,14 @@
 			};
 			name = Release;
 		};
-		C91504B22EBB2E5E00CB1C3A /* Debug */ = {
+		35B67F952EBEDB5500DDD537 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6N7WZYWAFD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -263,7 +266,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "FHHCUAU-2AM.lyiglyuvgylu";
+				PRODUCT_BUNDLE_IDENTIFIER = "The-Ethan-Company.Def-new-intro-to-swift-trust-100-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -275,13 +278,14 @@
 			};
 			name = Debug;
 		};
-		C91504B32EBB2E5E00CB1C3A /* Release */ = {
+		35B67F962EBEDB5500DDD537 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6N7WZYWAFD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -294,7 +298,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "FHHCUAU-2AM.lyiglyuvgylu";
+				PRODUCT_BUNDLE_IDENTIFIER = "The-Ethan-Company.Def-new-intro-to-swift-trust-100-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -309,25 +313,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C91504A12EBB2E5D00CB1C3A /* Build configuration list for PBXProject "lyiglyuvgylu" */ = {
+		35B67F842EBEDB5400DDD537 /* Build configuration list for PBXProject "Def new intro to swift trust 100%" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C91504AF2EBB2E5E00CB1C3A /* Debug */,
-				C91504B02EBB2E5E00CB1C3A /* Release */,
+				35B67F922EBEDB5500DDD537 /* Debug */,
+				35B67F932EBEDB5500DDD537 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C91504B12EBB2E5E00CB1C3A /* Build configuration list for PBXNativeTarget "lyiglyuvgylu" */ = {
+		35B67F942EBEDB5500DDD537 /* Build configuration list for PBXNativeTarget "Def new intro to swift trust 100%" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C91504B22EBB2E5E00CB1C3A /* Debug */,
-				C91504B32EBB2E5E00CB1C3A /* Release */,
+				35B67F952EBEDB5500DDD537 /* Debug */,
+				35B67F962EBEDB5500DDD537 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C915049E2EBB2E5D00CB1C3A /* Project object */;
+	rootObject = 35B67F812EBEDB5400DDD537 /* Project object */;
 }

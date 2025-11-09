@@ -28,7 +28,7 @@ struct TabHolder: View {
             }
             
             Tab("Add", systemImage: "plus", value: Tabs.add, role: .search) {
-                Text("hi")
+                Screen3()
             }
         }}}
             
