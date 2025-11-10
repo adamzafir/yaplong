@@ -89,6 +89,11 @@ struct Screen5: View {
                             player.currentTime = newTime
                         }
                     } label: {
+<<<<<<< HEAD
+                        Label("Back 15s", systemImage: "gobackward.15")
+                    }
+
+=======
                         Label("", systemImage: "gobackward.15")
                     }
                     Button {
@@ -121,6 +126,7 @@ struct Screen5: View {
                         Label(isPlaying ? "" : "", systemImage: isPlaying ? "pause.fill" : "play.fill")
                             .font(.headline)
                     }
+>>>>>>> main
                     Button {
                         let newTime = min(duration, currentTime + 15)
                         currentTime = newTime
@@ -128,8 +134,43 @@ struct Screen5: View {
                             player.currentTime = newTime
                         }
                     } label: {
+<<<<<<< HEAD
+                        Label("Forward 15s", systemImage: "goforward.15")
+                    }
+                }
+                Button {
+                    // Ensure audio session is ready
+                    do {
+                        try AVAudioSession.sharedInstance().setCategory(.playback, mode: .default)
+                        try AVAudioSession.sharedInstance().setActive(true)
+                    } catch {
+                        print("Audio session setup failed:", error)
+                    }
+
+                    if let player = audioPlayer {
+                        if player.isPlaying {
+                            player.pause()
+                            progressTimer?.invalidate()
+                            progressTimer = nil
+                        } else {
+                            // Resume from currentTime
+                            player.currentTime = currentTime
+                            player.play()
+                            startProgressTimer()
+                        }
+                    } else {
+                        // No player yet: start playback
+                        currentTime = 0
+                        playSound(sound: "cooked-dog-meme", type: "mp3")
+                    }
+                } label: {
+                    let isPlaying = audioPlayer?.isPlaying == true
+                    Label(isPlaying ? "Pause" : "Play", systemImage: isPlaying ? "pause.fill" : "play.fill")
+                        .font(.headline)
+=======
                         Label("", systemImage: "goforward.15")
                     }
+>>>>>>> main
                 }
             }.navigationTitle(Text("Review"))
              .onDisappear {

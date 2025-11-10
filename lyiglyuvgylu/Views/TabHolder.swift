@@ -1,10 +1,3 @@
-//
-//  TabHolder.swift
-//  lyiglyuvgylu
-//
-//  Created by Chan Yap Long on 7/11/25.
-//
-
 import SwiftUI
 
 
@@ -28,7 +21,7 @@ struct TabHolder: View {
             }
             
             Tab("Add", systemImage: "plus", value: Tabs.add, role: .search) {
-                Screen3()
+                Text("Hi")
             }
         }}}
             
