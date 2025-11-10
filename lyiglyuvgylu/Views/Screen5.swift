@@ -1,9 +1,9 @@
 //
-//  5.swift
+//  Screen5.swift
 //  lyiglyuvgylu
 //
 //  Created by Chan Yap Long on 5/11/25.
-//
+//commmit
 
 import SwiftUI
 import AVFoundation
@@ -15,7 +15,7 @@ struct Screen5: View {
     @State private var progressTimer: Timer?
     @State private var isScrubbing = false
 
-    // Gauge progress (0.0 ... 1.0). Replace with your real metric when available
+    // Gauge progress (0.0 ... 1.0)
     @State private var gaugeProgress: Double = 0.67
 
     private func startProgressTimer() {
@@ -45,19 +45,20 @@ struct Screen5: View {
             print("AVAudioPlayer init error:", error)
         }
     }
+
     var body: some View {
         NavigationStack {
-            VStack {
-                // Gauge from Screen 4
+            VStack(spacing: 24) {
+                // Gauge
                 SemiCircleGauge(progress: gaugeProgress)
                     .frame(height: 160)
                     .padding(.horizontal)
                     .padding(.top, 8)
+                
+                // Progress slider & timestamps
                 VStack(spacing: 8) {
                     Slider(value: Binding(
-                        get: {
-                            duration > 0 ? currentTime : 0
-                        },
+                        get: { duration > 0 ? currentTime : 0 },
                         set: { newValue in
                             currentTime = min(max(0, newValue), duration)
                         }
@@ -65,14 +66,12 @@ struct Screen5: View {
                         isScrubbing = editing
                         if !editing, let player = audioPlayer {
                             player.currentTime = currentTime
-                            if !player.isPlaying {
-                                player.play()
-                            }
+                            if !player.isPlaying { player.play() }
                             startProgressTimer()
                         }
                     })
                     .padding(.horizontal)
-                    .padding(.horizontal)
+
                     HStack {
                         Text(formatTime(currentTime))
                         Spacer()
@@ -81,23 +80,20 @@ struct Screen5: View {
                     .font(.caption)
                     .monospacedDigit()
                 }
+
+                // Playback controls
                 HStack(spacing: 24) {
+                    // Back 15s
                     Button {
                         let newTime = max(0, currentTime - 15)
                         currentTime = newTime
-                        if let player = audioPlayer {
-                            player.currentTime = newTime
-                        }
+                        audioPlayer?.currentTime = newTime
                     } label: {
-<<<<<<< HEAD
                         Label("Back 15s", systemImage: "gobackward.15")
                     }
 
-=======
-                        Label("", systemImage: "gobackward.15")
-                    }
+                    // Play/Pause
                     Button {
-                        // Ensure audio session is ready
                         do {
                             try AVAudioSession.sharedInstance().setCategory(.playback, mode: .default)
                             try AVAudioSession.sharedInstance().setActive(true)
@@ -105,109 +101,69 @@ struct Screen5: View {
                             print("Audio session setup failed:", error)
                         }
 
-                        if let player = audioPlayer {
-                            if player.isPlaying {
-                                player.pause()
-                                progressTimer?.invalidate()
-                                progressTimer = nil
-                            } else {
-                                // Resume from currentTime
-                                player.currentTime = currentTime
-                                player.play()
-                                startProgressTimer()
-                            }
-                        } else {
-                            // No player yet: start playback
+                        guard let player = audioPlayer else {
                             currentTime = 0
                             playSound(sound: "cooked-dog-meme", type: "mp3")
+                            return
                         }
-                    } label: {
-                        let isPlaying = audioPlayer?.isPlaying == true
-                        Label(isPlaying ? "" : "", systemImage: isPlaying ? "pause.fill" : "play.fill")
-                            .font(.headline)
-                    }
->>>>>>> main
-                    Button {
-                        let newTime = min(duration, currentTime + 15)
-                        currentTime = newTime
-                        if let player = audioPlayer {
-                            player.currentTime = newTime
-                        }
-                    } label: {
-<<<<<<< HEAD
-                        Label("Forward 15s", systemImage: "goforward.15")
-                    }
-                }
-                Button {
-                    // Ensure audio session is ready
-                    do {
-                        try AVAudioSession.sharedInstance().setCategory(.playback, mode: .default)
-                        try AVAudioSession.sharedInstance().setActive(true)
-                    } catch {
-                        print("Audio session setup failed:", error)
-                    }
 
-                    if let player = audioPlayer {
                         if player.isPlaying {
                             player.pause()
                             progressTimer?.invalidate()
                             progressTimer = nil
                         } else {
-                            // Resume from currentTime
                             player.currentTime = currentTime
                             player.play()
                             startProgressTimer()
                         }
-                    } else {
-                        // No player yet: start playback
-                        currentTime = 0
-                        playSound(sound: "cooked-dog-meme", type: "mp3")
+                    } label: {
+                        let isPlaying = audioPlayer?.isPlaying == true
+                        Label(isPlaying ? "Pause" : "Play", systemImage: isPlaying ? "pause.fill" : "play.fill")
+                            .font(.headline)
                     }
-                } label: {
-                    let isPlaying = audioPlayer?.isPlaying == true
-                    Label(isPlaying ? "Pause" : "Play", systemImage: isPlaying ? "pause.fill" : "play.fill")
-                        .font(.headline)
-=======
-                        Label("", systemImage: "goforward.15")
+
+                    // Forward 15s
+                    Button {
+                        let newTime = min(duration, currentTime + 15)
+                        currentTime = newTime
+                        audioPlayer?.currentTime = newTime
+                    } label: {
+                        Label("Forward 15s", systemImage: "goforward.15")
                     }
->>>>>>> main
                 }
-            }.navigationTitle(Text("Review"))
-             .onDisappear {
-                 progressTimer?.invalidate()
-                 progressTimer = nil
-             }
-             .padding()
+            }
+            .padding()
+            .navigationTitle("Review")
+            .onDisappear {
+                progressTimer?.invalidate()
+                progressTimer = nil
+            }
         }
     }
+
     private func formatTime(_ t: TimeInterval) -> String {
         guard t.isFinite && !t.isNaN else { return "0:00" }
         let total = Int(t.rounded())
-        let minutes = total / 60
-        let seconds = total % 60
-        return String(format: "%d:%02d", minutes, seconds)
+        return String(format: "%d:%02d", total / 60, total % 60)
     }
 }
 
 extension Screen5 {
     struct SemiCircleGauge: View {
-        // progress expected 0.0 ... 1.0
         var progress: Double
         var lineWidth: CGFloat = 16
-        
+
         var body: some View {
             GeometryReader { geo in
                 let size = min(geo.size.width, geo.size.height)
-                let radius = size / 2
                 ZStack {
-                    // Background arc (gray)
                     Arc(startAngle: .degrees(180), endAngle: .degrees(360))
                         .stroke(Color.gray.opacity(0.25), style: StrokeStyle(lineWidth: lineWidth, lineCap: .round))
-                    // Progress arc (blue)
+
                     Arc(startAngle: .degrees(180), endAngle: .degrees(180 + 180 * progress))
                         .stroke(Color.blue, style: StrokeStyle(lineWidth: lineWidth, lineCap: .round))
                         .animation(.easeInOut(duration: 0.4), value: progress)
-                    // Optional percentage label
+
                     Text("\(Int(progress * 100))%")
                         .font(.system(size: 24, weight: .bold))
                         .foregroundStyle(.primary)
@@ -217,23 +173,16 @@ extension Screen5 {
             }
         }
     }
-    
-    // A simple arc shape that draws from startAngle to endAngle with center at bottom of the view to make a semicircle
+
     struct Arc: Shape {
         var startAngle: Angle
         var endAngle: Angle
-        
+
         func path(in rect: CGRect) -> Path {
             var path = Path()
-            let width = rect.width
-            let height = rect.height
+            let radius = min(rect.width, rect.height)
             let center = CGPoint(x: rect.midX, y: rect.maxY)
-            let radius = min(width, height)
-            path.addArc(center: center,
-                        radius: radius,
-                        startAngle: startAngle,
-                        endAngle: endAngle,
-                        clockwise: false)
+            path.addArc(center: center, radius: radius, startAngle: startAngle, endAngle: endAngle, clockwise: false)
             return path
         }
     }
