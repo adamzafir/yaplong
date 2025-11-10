@@ -13,6 +13,11 @@
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		C91504A82EBB2E5D00CB1C3A /* lyiglyuvgylu */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			explicitFolders = (
+				Others,
+				"Viewmodels?",
+				Views,
+			);
 			path = lyiglyuvgylu;
 			sourceTree = "<group>";
 		};
